@@ -1,0 +1,15 @@
+Create Project - python django-admin.py startproject <name>
+
+Run Server - python manage.py runserver 
+
+Create App - python manage.py startapp <appname>
+
+Tell Project about app - adding it to the INSTALLED_APPS tuple in your project¡¦s settings.py file.
+
+Create view for app - make sure that the view.py file have functions that return HttpResponse Object
+
+Add app url - add a urls.py file to app directory that direct url strings to views
+
+Changing development server port to 5555: 
+python manage.py runserver <your_machines_ip_address>:5555
+*Replace <your_machines_ip_address> with your computer¡¦s IP address.
